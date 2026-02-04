@@ -34,7 +34,7 @@ yesButton.addEventListener("click", () => {
   // Zeige die Erfolgsseite
   content.innerHTML = `
     <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" style="height: 200px;" />
-    <div style="font-size: 2rem; font-weight: bold; margin-top: 1rem;">WOOOOOO!!! I love you pookie!! ;))</div>
+    <div style="font-size: 2rem; font-weight: bold; margin-top: 1rem;">WOOOOOO!!! I love you aşkım!! ;))</div>
   `;
 });
 
@@ -49,10 +49,4 @@ noButton.addEventListener("click", () => {
   yesButton.style.fontSize = yesButtonSize + "px";
   yesButton.style.padding = (yesButtonSize / 2) + "px " + (yesButtonSize * 1.5) + "px";
   
-  // Bewege "No" Button zufällig
-  const randomX = Math.floor(Math.random() * 200) - 100;
-  const randomY = Math.floor(Math.random() * 200) - 100;
-  noButton.style.position = "relative";
-  noButton.style.left = randomX + "px";
-  noButton.style.top = randomY + "px";
 });
