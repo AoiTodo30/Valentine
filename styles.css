@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: -4rem;
+}
+
+#content {
+  text-align: center;
+}
+
+img.gif-image {
+  height: 200px;
+  width: auto;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.btn-yes {
+  background-color: #22c55e;
+  padding: 0.5rem 1rem;
+}
+
+.btn-yes:hover {
+  background-color: #16a34a;
+}
+
+.btn-no {
+  background-color: #ef4444;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.btn-no:hover {
+  background-color: #dc2626;
+}
